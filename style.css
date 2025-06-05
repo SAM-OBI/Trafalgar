@@ -1,0 +1,997 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Mulish", sans-serif;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.traf-menu {
+    display: none;
+}
+
+.traf-header {
+    position: relative;
+    margin-bottom: 250px;
+    padding: 1% 10% 0 10%;
+}
+
+.absolute-1 {
+    position: absolute;
+    left: 2%;
+}
+
+.traf-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.traflogo-img {
+    width: 160px;
+    height: 41px;
+    /* font-weight: 700;
+    font-size: 24px; */
+}
+
+.traf-nav ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.traf-nav li {
+    list-style: none;
+}
+
+.traf-nav li a:hover {
+    opacity: 1;
+    transition: 0.2s ease;
+    /* color: #67C3F3; */
+}
+
+.traf-nav a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100px;
+    opacity: 0.5;
+    color: #1F1534;
+}
+
+.active {
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+    line-height: 100px;
+}
+
+/* DOWN FLEX STYLING */
+.traf-health {
+    position: relative;
+}
+
+.sec1-illu {
+    display: none;
+
+}
+
+.sec1-illus {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -60px;
+    width: 600px;
+    height: 500px;
+}
+
+.traf-health h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    width: 100%;
+}
+
+.sec1-p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    /* width:92%; */
+}
+
+.traf-btn {
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    width: 150px;
+    height: 48px;
+    padding: 0;
+    border-radius: 55px;
+    position: relative;
+    outline: none;
+    border: 1px solid #458FF6;
+}
+
+#traf-btn {
+    color: #fff;
+    background-color: #458FF6;
+    outline: none;
+
+}
+
+.traf-btn:hover,
+#sec2-btn:hover {
+    background-color: #458FF6;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+#Download-btn::after {
+    content: '↓';
+    position: absolute;
+    font-size: 20px;
+    font-weight: 800;
+    top: 3px;
+    right: 30px;
+    transition: 0.3s ease;
+}
+
+.traf-btn:active::after {
+    outline: none;
+    padding-top: 10px;
+}
+
+.traf-btn:active {
+    padding-top: 10px;
+}
+
+.sec1-top {
+    margin-top: 6%;
+}
+
+.sec1-frame {
+    display: block;
+    width: 100%;
+}
+
+/* SECTION 1 ENDS HERE      */
+
+/* SECTION 2 STARTS HERE  */
+
+.sec2-head {
+    text-align: center;
+}
+
+/* styling for all h2 in section 2, 3, 4, 6  */
+.sec2-head h2,
+.sec3-traf h2,
+.sec4-traf h2,
+.sec6-grid h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.sec2-head p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-inline: auto;
+    margin-bottom: 60px;
+}
+
+.sec2-grid,
+.sec2-grid2 {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 250px;
+    gap: 40px;
+}
+
+.sec2-grid2 {
+    margin-top: 30px;
+}
+
+.sec2-grid small,
+.sec2-grid2 small {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.sec2-grid h3,
+.sec2-grid2 h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.bx-swd,
+#bx-swd {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background: #ffff;
+    width: 270px;
+    height: 230px;
+    padding: 60px 30px;
+    border-radius: 10px;
+}
+
+.Vector4 {
+    position: absolute;
+    z-index: -100;
+    /* height: 500px;
+    width: 600px; */
+    left: -260px;
+    top: -20px;
+}
+
+.sec2-ele {
+    position: absolute;
+    right: 14%;
+    top: 87%;
+    z-index: -100;
+
+}
+
+#sec2-btn {
+    margin: 5% 45%;
+    border: 1px solid #458FF6;
+    background: inherit;
+}
+
+/* SECTION 3/4 STYLING  STARTS HERE*/
+.sec3-traf {
+    position: relative;
+}
+
+.sec3-ele {
+    position: absolute;
+    right: -5px;
+    top: 420px;
+}
+
+.sec3-traf,
+.sec4-traf {
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+    gap: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 100px;
+}
+
+.img-sec3,
+.img-sec4 {
+    display: none;
+}
+
+.sec3-traf p,
+.sec4-traf p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    /* margin-inline: auto;*/
+    width: 70%;
+}
+
+.sec3.head {
+    margin-top: 0;
+}
+
+/* position for button  */
+.traf-btn-flex {
+    position: relative;
+}
+
+.vec-img {
+    position: absolute;
+    left: 19%;
+    top: 28%;
+}
+
+/* styling for section 4 ends here  */
+
+/* styling for section 5 */
+.traf-sec5 {
+    background: linear-gradient(90deg, #5A98F2, #5A98F2, #67C3F3);
+    height: 400px;
+    width: 1000px;
+    height: 300px;
+    border-radius: 24px;
+    margin-left: 10%;
+    padding: 1% 5%;
+    margin-bottom: 15%;
+}
+
+.sec5-head {
+    text-align: center;
+}
+
+.sec5-head h2 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #ffff;
+    margin-bottom: 0;
+}
+
+.sec5-profile {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.sec5flex {
+    position: relative;
+}
+
+.sec5flex h3 {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #fff;
+}
+
+.sec5flex p {
+    position: absolute;
+    width: 43%;
+    right: 0%;
+    top: 15%;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #ffff;
+}
+
+.sec5flex small {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: #fff;
+}
+
+/* section 6 starts here  */
+.sec6-head {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sec6-head img {
+    margin-top: 0;
+}
+
+.sec6-head h2 {
+    margin-bottom: 0;
+}
+
+.sec6-grid {
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    margin-left: 14%;
+}
+
+.sec6-align {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 360px;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 480px;
+    border-radius: 15px 15px 1px 1px;
+}
+
+.sec6-para {
+    margin-left: 50px;
+}
+
+.read-m {
+    margin-top: 25px;
+}
+
+.sec6-position {
+    position: relative;
+}
+
+/* styling for both z index images  */
+.sec6v {
+    z-index: -100;
+    position: absolute;
+    top: 14%;
+    right: 0px;
+    width: 400px;
+    height: 300px;
+}
+
+.sec6-ele {
+    position: absolute;
+    left: 6%;
+    top: -57%;
+    z-index: -100;
+}
+
+/* .sec6-align{
+    text-align: left;
+    padding-left: 0;
+} */
+.sec6-grid1 h3,
+.sec6-grid2 h3,
+.sec6-grid3 h3 {
+    width: 78%;
+}
+
+
+.sec6-small {
+    width: 58%;
+    margin-bottom: 3%;
+}
+
+.sec6-achor {
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 17px;
+    color: #4089ED;
+    text-decoration: none;
+    position: relative;
+}
+
+.sec6-achor::after {
+    content: '→';
+    position: absolute;
+    font-size: 20px;
+    font-weight: 800;
+    top: -3px;
+    right: -25px;
+    transition: 0.3s ease;
+}
+
+.sec6-achor:active::after {
+    outline: none;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.sec6-achor:active {
+    padding-left: 10px;
+    color: #fff;
+}
+
+.sec6-ele2 {
+    position: absolute;
+    left: 11%;
+    top: 6%;
+    z-index: -100;
+}
+
+.traf-align {
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+.traf-align .traf-btn {
+    margin-top: 40px;
+}
+
+
+/* styling for section 7  */
+.traf-sec7 {
+    position: relative;
+    background: linear-gradient(90deg, #5A98F2, #5A98F2, #67C3F3);
+    height: 400px;
+    margin-bottom: 0;
+    height: 500px;
+
+}
+
+.sec7-top {
+    position: absolute;
+    right: 2%;
+    top: -17%;
+
+}
+
+.sec7-left {
+    position: absolute;
+    left: -1%;
+    bottom: 1%;
+    width: 100px;
+}
+
+.sec7-flex {
+    padding: 5% 0 5% 5%;
+    margin-right: 0;
+}
+
+.sec7-flex,
+.sec7-list {
+    display: flex;
+}
+
+.sec7-list ul li {
+    list-style: none;
+    padding: 0;
+}
+
+.sec7-list ul {
+    margin-right: 3%;
+    padding-right: 0;
+}
+
+.sec7-flex p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffff;
+    width: 48%;
+}
+
+.bold {
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 20px;
+    color: #ffff;
+    text-transform: capitalize;
+}
+
+.sec7-flex li a {
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sec7-ul {
+    margin-bottom: 0;
+}
+
+.text-T {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    /* background: #fff; */
+    color: #fff;
+}
+
+.text-t {
+    padding: 2px 10px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #458FF6;
+}
+
+
+/* MEDIA QUERY STARTS HERE  */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 10px;
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .traf-header {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .traf-nav ul {
+        display: none;
+    }
+
+    .traf-nav {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .traf-menu {
+        display: block;
+    }
+
+    .traflogo-img {
+        width: 115px;
+        height: 30px;
+    }
+
+    .absolute-1 {
+        height: 80px;
+        top: 8%;
+    }
+
+    .traf-health {
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        margin-top: 0;
+    }
+
+    .traf-health br {
+        display: none;
+    }
+
+    .traf-health h1 {
+        font-size: 24px;
+        margin: 0;
+        padding: 5% 0 2% 0;
+    }
+
+    .sec1-top {
+        margin-top: 0;
+
+    }
+
+    .sec1-p {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 27px;
+        color: #7D7987;
+        width: 100%;
+        margin: 0;
+    }
+
+    .sec1-illus {
+        display: none;
+    }
+
+    .traf-btn {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #traf-btn {
+        border: 1px solid #458FF6;
+        width: 100%;
+        height: 48px;
+        padding: 0;
+        border-radius: 55px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+
+    .sec1-illu {
+        display: block;
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    /* STYLING FOR SEC2  */
+
+    .traf-section2 br {
+        display: none;
+    }
+
+    .sec2-head h2,
+    .sec3-traf h2,
+    .sec4-traf h2,
+    .sec6-grid h2 {
+        font-size: 40px;
+        line-height: 26px;
+        color: #000000;
+    }
+
+    .sec2-head p {
+        width: 100%;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: start;
+        color: #7D7987;
+    }
+
+    .sec2-grid,
+    .sec2-grid2 {
+        flex-direction: column;
+        margin: 0;
+        gap: 15px;
+    }
+
+    .sec2-grid2 {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .bx-swd,
+    #bx-swd {
+        padding: 2px;
+        width: 96%;
+        height: 220px;
+        padding: 17px 0 10px 20px;
+    }
+
+    .Vector4 {
+        height: 700px;
+        width: 300px;
+        top: -20px;
+        left: 0;
+    }
+
+    .sec2-ele {
+        right: 2%;
+        top: 23%;
+        z-index: -100;
+    }
+
+    #sec2-btn {
+        margin: 0;
+    }
+
+
+    /* STYLING FOR SEC3 AND 4  */
+
+    /* styling for all h2 in section 2, 3, 4, 6    */
+    .sec3-traf,
+    .sec4-traf {
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+        margin-bottom: 0;
+        /* width: 90%; */
+    }
+
+    .sec2-head h2,
+    .sec3-traf h2,
+    .sec4-traf h2,
+    .sec6-grid h2 {
+        font-size: 26px;
+        line-height: 16px;
+        color: #000000;
+    }
+
+    .sec3-traf p,
+    .sec4-traf p {
+        font-size: 24px;
+        line-height: 27px;
+        width: 100%;
+        margin: 2% 0;
+        font-weight: 400;
+    }
+
+    .sec3-ele {
+        top: 560px;
+    }
+
+    .traf-btn-flex {
+        position: relative;
+    }
+
+    .vec-img {
+        position: absolute;
+        left: 60%;
+        top: 44%;
+    }
+
+    .traf-sec3,
+    .imgg-sec4 {
+        display: none;
+    }
+
+    .img-sec3,
+    .img-sec4 {
+        display: block;
+        margin: 40px 0;
+        width: 100%;
+    }
+
+    .sec4-traf,
+    .sec3-traf {
+        margin-top: 60px;
+        margin-bottom: 5%;
+        margin-left: 0;
+    }
+
+    #Download-btn {
+        margin-bottom: 30px;
+    }
+
+    #Download-btn::after {
+        content: '↓';
+        position: absolute;
+        font-size: 20px;
+        font-weight: 800;
+        top: 3px;
+        right: 130px;
+
+        background-color: inherit;
+        color: #ffff;
+    }
+
+    #Download-btn::after:active {
+        outline: none;
+        padding-top: 25px;
+        color: #fff;
+        transition: 4s ease-in-out;
+    }
+
+    #Download-btn:active {
+        padding-top: 10px;
+
+    }
+
+    /* STYLING FOR SECTION 5  */
+    .traf-sec5 {
+        margin: 0;
+        margin-bottom: 80px;
+        margin-top: 50px;
+        width: 100%;
+        height: 400px;
+        padding: 0;
+
+    }
+
+    .sec5-head h2 {
+        font-size: 23px;
+        line-height: 28px;
+        margin-bottom: 0;
+        padding-top: 8%;
+    }
+
+    .sec5flex h3 {
+        margin-bottom: 0;
+        line-height: 22px;
+        font-size: 29px;
+
+    }
+
+    .sec5flex p {
+        position: absolute;
+        width: 100%;
+        top: 110%;
+        left: 1%;
+        font-size: 16px;
+        line-height: 28px;
+        padding-left: 0;
+    }
+
+    /* SECTION 5 PROFILE STYLING  */
+    .sec5-profile {
+        padding-left: 2%;
+        padding-top: 10%;
+        gap: 2%;
+    }
+
+    .sec5-profile img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .sec5-profile h3 {
+        font-size: 18px;
+
+    }
+
+    .sec5-profile small {
+        font-size: 18px;
+    }
+
+    /* SECTION 6 STYLING */
+    .sec6-head {
+        margin: 7% 0;
+    }
+
+    .sec6-head h2 {
+
+        font-size: 26px;
+        line-height: 16px;
+        /* margin-top: 10%; */
+        margin-bottom: 0;
+    }
+
+    .sec6-grid {
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
+        width: 78%;
+    }
+
+    .sec6-grid1,
+    .sec6-grid2,
+    .sec6-grid3 {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .sec6-align {
+        padding: 0;
+        margin: 10px 0 40px 0;
+        height: 420px;
+        width: 370px;
+    }
+
+    .sec6-img {
+        width: 370px;
+        height: 200px;
+        padding-left: 0;
+    }
+
+    .sec6-para {
+        padding-left: 2%;
+    }
+
+    .sec6-para h3 {
+        width: 100%;
+    }
+
+    .traf-align .traf-btn {
+        margin-top: 0;
+    }
+
+
+    /* SECTION 7 STYLING HERE  */
+
+
+    .traf-sec7 {
+        height: 650px;
+        width: 100%;
+        padding: 35px 0 0 5px;
+        margin-top: 80px;
+    }
+
+    .sec7-flex {
+        flex-direction: column;
+    }
+
+    .sec7-list {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .sec7-flex {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sec7-flex p {
+        font-size: 18px;
+        line-height: 28px;
+        padding-left: 2px;
+        width: 100%;
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .sec7-flex li a {
+        font-weight: 300;
+        line-height: 40px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .sec7-list ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sec7-list .sec7-ul {
+        padding-top: 30px;
+        text-align: start;
+    }
+
+    .sec7-left {
+        display: none;
+    }
+
+    .sec7-top {
+        top: -9%;
+        z-index: -100;
+
+    }
+}
